@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MusicLib</string>
+    <string name="title_one">Home</string>
+    <string name="title_two">Dashboard</string>
+    <string name="title_three">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="hyperlink1"><a href="https://musicplayerapp-50cea-default-rtdb.europe-west1.firebasedatabase.app/">Realtime Firebase Database</a></string>
+    <string name="hyperlink2"><a href="https://console.firebase.google.com/u/0/project/musicplayerapp-50cea/storage/">Firebase Storage</a></string>
+</resources>

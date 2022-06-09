@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Three"
+    android:scrollbars="vertical"
+    android:background="#1E3C3C">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RLayout1"
+            android:orientation="vertical"
+            android:paddingRight="20dp">
+
+            <ImageView
+                android:id="@+id/lnp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/lnp" />
+
+            <TextView
+                android:id="@+id/PlaylistTitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/lnp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/lnp"
+                android:text="Late Night Playlist"
+                android:textColor="#729E9E"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Date1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/lnp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_toEndOf="@id/lnp"
+                android:text="17.05.2018"
+                android:textColor="#B29781" />
+
+            <TextView
+                android:id="@+id/Description1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/lnp"
+                android:layout_alignBottom="@id/lnp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_toEndOf="@id/lnp"
+                android:text="The moment that froze in time, now and forever." />
+
+
+            <ImageView
+                android:id="@+id/els"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/lnp"
+                app:srcCompat="@drawable/els" />
+
+            <TextView
+                android:id="@+id/PlaylistTitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/els"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/els"
+                android:text="Sunshine"
+                android:textColor="#729E9E"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Date2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/els"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_toEndOf="@id/els"
+                android:text="28.07.2021"
+                android:textColor="#B29781" />
+
+            <TextView
+                android:id="@+id/Description2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/els"
+                android:layout_alignBottom="@id/els"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_toEndOf="@id/els"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+
+
+            <ImageView
+                android:id="@+id/ml"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/els"
+                app:srcCompat="@drawable/ml" />
+
+            <TextView
+                android:id="@+id/PlaylistTitle3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/ml"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/ml"
+                android:text="Medium Length"
+                android:textColor="#729E9E"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Date3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/ml"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_toEndOf="@id/ml"
+                android:text="14.09.2021"
+                android:textColor="#B29781" />
+
+            <TextView
+                android:id="@+id/Description3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/ml"
+                android:layout_alignBottom="@id/ml"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_toEndOf="@id/ml"
+                android:text="Donec volutpat pharetra mauris sit amet fermentum. Nulla..." />
+
+
+            <ImageView
+                android:id="@+id/padoru"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/ml"
+                app:srcCompat="@drawable/padoru" />
+
+            <TextView
+                android:id="@+id/PlaylistTitle4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/padoru"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/padoru"
+                android:text="Padoru"
+                android:textColor="#729E9E"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Date4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/padoru"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_toEndOf="@id/padoru"
+                android:text="31.12.2020"
+                android:textColor="#B29781" />
+
+            <TextView
+                android:id="@+id/Description4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/padoru"
+                android:layout_alignBottom="@id/padoru"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_toEndOf="@id/padoru"
+                android:text="Donec volutpat pharetra mauris sit amet fermentum. Nulla..." />
+
+
+            <ImageView
+                android:id="@+id/pone"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/padoru"
+                app:srcCompat="@drawable/pone" />
+
+            <TextView
+                android:id="@+id/PlaylistTitle5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/pone"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/pone"
+                android:text="Part One"
+                android:textColor="#729E9E"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Date5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/pone"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_toEndOf="@id/pone"
+                android:text="11.11.2017"
+                android:textColor="#B29781" />
+
+            <TextView
+                android:id="@+id/Description5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/pone"
+                android:layout_alignBottom="@id/pone"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_toEndOf="@id/pone"
+                android:text="Donec volutpat pharetra mauris sit amet fermentum. Nulla..." />
+
+
+            <ImageView
+                android:id="@+id/stoplist35"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/pone"
+                app:srcCompat="@drawable/stoplist35" />
+
+            <TextView
+                android:id="@+id/PlaylistTitle6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/stoplist35"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/stoplist35"
+                android:text="STOPLIST35"
+                android:textColor="#729E9E"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Date6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/stoplist35"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_toEndOf="@id/stoplist35"
+                android:text="07.12.2021"
+                android:textColor="#B29781" />
+
+            <TextView
+                android:id="@+id/Description6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/stoplist35"
+                android:layout_alignBottom="@id/stoplist35"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_toEndOf="@id/stoplist35"
+                android:text="Donec volutpat pharetra mauris sit amet fermentum. Nulla..." />
+
+
+            <ImageView
+                android:id="@+id/stoplist34"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/stoplist35"
+                app:srcCompat="@drawable/stoplist34" />
+
+            <TextView
+                android:id="@+id/PlaylistTitle7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/stoplist34"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/stoplist34"
+                android:text="STOPLIST34"
+                android:textColor="#729E9E"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Date7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/stoplist34"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_toEndOf="@id/stoplist34"
+                android:text="07.10.2021"
+                android:textColor="#B29781" />
+
+            <TextView
+                android:id="@+id/Description7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/stoplist34"
+                android:layout_alignBottom="@id/stoplist34"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_toEndOf="@id/stoplist34"
+                android:text="Donec volutpat pharetra mauris sit amet fermentum. Nulla..." />
+
+
+            <ImageView
+                android:id="@+id/stoplist33"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/stoplist34"
+                app:srcCompat="@drawable/stoplist33" />
+
+            <TextView
+                android:id="@+id/PlaylistTitle8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/stoplist33"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/stoplist33"
+                android:text="STOPLIST33"
+                android:textColor="#729E9E"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Date8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/stoplist33"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_toEndOf="@id/stoplist33"
+                android:text="23.08.2021"
+                android:textColor="#B29781" />
+
+            <TextView
+                android:id="@+id/Description8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/stoplist33"
+                android:layout_alignBottom="@id/stoplist33"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_toEndOf="@id/stoplist33"
+                android:text="Donec volutpat pharetra mauris sit amet fermentum. Nulla..." />
+
+
+            <ImageView
+                android:id="@+id/stoplist32"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/stoplist33"
+                app:srcCompat="@drawable/stoplist32" />
+
+            <TextView
+                android:id="@+id/PlaylistTitle9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/stoplist32"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/stoplist32"
+                android:text="STOPLIST32"
+                android:textColor="#729E9E"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Date9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/stoplist32"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_toEndOf="@id/stoplist32"
+                android:text="30.05.2021"
+                android:textColor="#B29781" />
+
+            <TextView
+                android:id="@+id/Description9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/stoplist32"
+                android:layout_alignBottom="@id/stoplist32"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_toEndOf="@id/stoplist32"
+                android:text="Donec volutpat pharetra mauris sit amet fermentum. Nulla..." />
+
+
+            <ImageView
+                android:id="@+id/stoplist31"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_below="@+id/stoplist32"
+                app:srcCompat="@drawable/stoplist31" />
+
+            <TextView
+                android:id="@+id/PlaylistTitle10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/stoplist31"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/stoplist31"
+                android:text="STOPLIST31"
+                android:textColor="#729E9E"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Date10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/stoplist31"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_toEndOf="@id/stoplist31"
+                android:text="21.04.2021"
+                android:textColor="#B29781" />
+
+            <TextView
+                android:id="@+id/Description10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/stoplist31"
+                android:layout_alignBottom="@id/stoplist31"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_toEndOf="@id/stoplist31"
+                android:text="Donec volutpat pharetra mauris sit amet fermentum. Nulla..." />
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

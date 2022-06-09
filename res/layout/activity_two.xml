@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#644932"
+    android:scrollbars="vertical"
+    tools:context=".Two">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/GenreTextH1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Классика — образцовая музыка."
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/GenreText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/GenreTextH1"
+                android:layout_centerInParent="true"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:text="  Классическая музыка – чарующие мелодии, созданные талантливыми авторами, которых справедливо называют композиторами-классиками. Их произведения уникальны и всегда будут востребованы исполнителями и слушателями. Классической, с одной стороны, принято называть строгую, глубокосодержательную музыку, не относящуюся к направлениям: рок, джаз, народная, эстрадная, шансон и т. п. С другой стороны, в историческом развитии музыки есть период конца XIII - начала XX века, называемый классицизмом. Классические темы отличаются возвышенной интонацией, изысканностью, разнообразием оттенков и гармонией. Они положительно влияют на эмоциональное мировосприятие взрослых и детей." />
+
+            <TextView
+                android:id="@+id/GenreTextH2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_below="@id/GenreText1"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Авангард — экстрим в пределах традиции."
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/GenreText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/GenreTextH2"
+                android:layout_centerInParent="true"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:text="  Классическая музыка – чарующие мелодии, созданные талантливыми авторами, которых справедливо называют композиторами-классиками. Их произведения уникальны и всегда будут востребованы исполнителями и слушателями. Классической, с одной стороны, принято называть строгую, глубокосодержательную музыку, не относящуюся к направлениям: рок, джаз, народная, эстрадная, шансон и т. п. С другой стороны, в историческом развитии музыки есть период конца XIII - начала XX века, называемый классицизмом. Классические темы отличаются возвышенной интонацией, изысканностью, разнообразием оттенков и гармонией. Они положительно влияют на эмоциональное мировосприятие взрослых и детей." />
+
+            <TextView
+                android:id="@+id/GenreTextH3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_below="@id/GenreText2"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Джаз — как музыка свободы."
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/GenreText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/GenreTextH3"
+                android:layout_centerInParent="true"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:text="  Джаз – это направление в музыке, которое возникло в США в самом начале XX века. В нем тесно переплетаются ритмы, обрядовые песнопения и рабочие песни афроамериканцев, а также гармоническая составляющая, присущая музыке белых переселенцев. Другими словами, это импровизационный жанр, появившийся в результате смешивания западноевропейской и западноафриканской музыки." />
+
+            <TextView
+                android:id="@+id/GenreTextH4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_below="@id/GenreText3"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Рок — от Beatles до Nine Inch Nails."
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/GenreText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/GenreTextH4"
+                android:layout_centerInParent="true"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:text="  Моментом зарождения рок-музыки, как уже говорилось выше, считается начало 50-х годов. Многие эксперты в этой области склонны считать родиной рока Североамериканский континент. Именно туда в свое время перебралось множество представителей негритянской расы. Они сохранили не только свои традиции, но и привезли в Америку национальные инструменты. Со временем, рок-н-ролл стал отходить на второй план и к началу 60-х годов прошлого века на музыкальной сцене появились две группы, оказавшие наибольшее влияние не только на музыкальные направления, но и на развитие своеобразной субкультуры в целом. Это были The Beatles и Rolling Stones. Наверняка, многие знают, что чуть позднее на этой основе сформировалось движение хиппи. Эти две группы создали поистине неувядающие хиты всех времен и народов." />
+
+            <TextView
+                android:id="@+id/GenreTextH5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_below="@id/GenreText4"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Электронная музыка  — музыка футуристов."
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/GenreText5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/GenreTextH5"
+                android:layout_centerInParent="true"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:text="  Несмотря на то, что первый музыкальный электронный инструмент появился еще в начале XXвека, в полноценный жанр данное направление переросло только в конце прошлого века. На сегодняшний день это одно из самых молодых и стремительно развивающихся музыкальных направлений, которое своими корнями уходит именно в Западную культуру. Это еще одно из самых обширных музыкальных направлений современности, в которое входит и компьютерная музыка, идип-хаус, и лаунж, и евродэнс, и многие другие жанры. Современная электронная музыка базируется на использовании электромеханических музыкальных инструментов и специальных электронных технологиях создания музыки." />
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
